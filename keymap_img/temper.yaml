@@ -80,8 +80,8 @@ layers:
     - {t: ▽, type: trans}
     - ''''
     - ESC
-    - '{'
-    - '}'
+    - {t: '[', s: '{'}
+    - {t: ']', s: '}'}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
